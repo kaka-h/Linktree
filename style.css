@@ -68,3 +68,13 @@ h1 {
     background-color: #3a3a3a;
     box-shadow: 10px 10px #173e75;
 }
+
+@media (max-width: 576px) {
+    .container {
+        width: 80%;
+    }
+
+    .links a {
+        width: 80%;
+    }
+}
