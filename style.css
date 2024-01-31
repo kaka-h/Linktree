@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("bg2.png");
+    text-align: center;
+}
+
+.container {
+    max-width: 550px;
+    margin: 50px auto;
+    padding: 20px;
+    height: 800px;
+    background-image: url("bg.webp");
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 10px 10px rgb(30, 29, 29, 0.8);
+}
+
+h1 {
+    color: #333;
+}
+
+.image {
+    margin-top: 30px;
+    width: 210px;
+    height: 220px;
+    border-radius: 100%;
+    box-shadow: 8px 8px rgb(0, 0, 0, 0.8);
+}
+
+.bi {
+    font-size: 30px;
+    color: white;
+}
+
+.bi-github {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.links {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.links a {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 10px;
+    width: 450px;
+    background-color: #173e75;
+    box-shadow: 10px 10px #3a3a3a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.links a:hover {
+    background-color: #3a3a3a;
+    box-shadow: 10px 10px #173e75;
+}
