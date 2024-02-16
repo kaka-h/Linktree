@@ -32,7 +32,7 @@ h1 {
 .bi {
     font-size: 30px;
     color: white;
-}
+}z
 
 .bi-github {
     width: 30px;
@@ -58,15 +58,16 @@ h1 {
     padding: 10px;
     width: 450px;
     background-color: #173e75;
-    box-shadow: 10px 10px #3a3a3a;
+    box-shadow: 10px 10px #a4a4a4;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .links a:hover {
-    background-color: #3a3a3a;
+    background-color: #a4a4a4;
     box-shadow: 10px 10px #173e75;
+    color: black;
 }
 
 @media (max-width: 576px) {
